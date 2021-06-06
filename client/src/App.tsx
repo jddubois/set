@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 
 import "./App.css";
+import { Card } from "./Card";
 
 class App extends Component {
   state = {
@@ -45,8 +46,9 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Edit <code>BIG BALLS</code> and save to reload.
           </p>
+          <Card></Card>
           <a
             className="App-link"
             href="https://reactjs.org"
